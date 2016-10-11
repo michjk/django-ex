@@ -9,7 +9,6 @@ engines = {
     'mysql': 'django.db.backends.mysql',
 }
 
-
 def config():
     service_name = os.getenv('DATABASE_SERVICE_NAME', '').upper()
     if service_name:
